@@ -1,3 +1,37 @@
-baseURL = "http://example.org/"
-languageCode = "en-us"
-title = "My New Hugo Site"
+baseurl                  = "https://mgrah.am/"
+languageCode             = "en-gb"
+title                    = "Mike Graham"
+theme                    = "sam"
+pygmentsStyle            = "monokai"   # https://help.farbox.com/pygments.html
+pygmentsCodefences       = true
+
+[params]
+    dateform             = "Mon Jan 02, 2006"
+    dateformfull         = "Mon Jan 2 2006 15:04:05 EST"
+    favicon              = "/sam.ico"
+    homepage             = "main"     # What to call the home page link
+    galleryFolder        = "images/"  # Where you've put your images, after "/content/gallery/" (eg. "images/")
+    clickablePhotos      = true       # Allow links to the full size images
+    smallPreviewImages   = true       # Show thumbnails (small images) instead of using full size images on the gallery page
+                                      # Note: This will only become active if clickablePhotos is also true.
+    smallImagesSubfolder = "small/"   # Folder for image thumbnails (small versions) after "/content/gallery/[galleryFolder]" (eg. "small/")
+                                      # For each image the small version has to have the same filename as the big version.
+    footerText           = "mgrah.am: Built with Hugo."
+
+# Metadata
+    description          = "MGRAH.AM is the website of Mike Graham."            # Max 160 characters show in search results
+    twitterCard          = "summary_large_image"         # Card value “summary”, “summary_large_image”, “app”, or “player”
+    primaryImage         = "/tn.png"                     # Image that shows on Twitter cards and OpenGraph links
+
+
+[[params.mainMenu]]
+    link = "/about"
+    text = "About Mike."
+
+[[params.mainMenu]]
+    link = "https://www.linkedin.com/in/mike-graham/"
+    text = "Mike on LinkedIn."
+
+[[params.mainMenu]]
+    link = "mailto:hello@mgrah.am"
+    text = "Email Mike."
