@@ -12,7 +12,7 @@ complicated.  Not really;  they just taste really good.
 He drinks tea (strong, lots of milk, no sugar), but doesn't drink
 coffee.  One of the great disappointments of his life is that coffee
 _smells_ so good, but the taste doesn't live up to the aroma.  He thinks
-this is one of the universe's cruelest tricks.
+this is one of the universe's cruellest tricks.
 
 If you're looking to hire Mike, or just want an overview of his working
 life, you can get that [on his LinkedIn
