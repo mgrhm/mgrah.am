@@ -1,4 +1,4 @@
-baseurl                  = "https://mgrah.am/"
+baseurl                  = "https://mgrhm.gitlab.io/mgrah.am/"
 languageCode             = "en-gb"
 title                    = "Mike Graham"
 theme                    = "sam"
