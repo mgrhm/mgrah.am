@@ -15,7 +15,7 @@ _smells_ so good, but the taste doesn't live up to the aroma.  He thinks
 this is one of the universe's cruellest tricks.
 
 If you're looking to hire Mike, or just want an overview of his working
-life, you can get that [on his LinkedIn
+life, you can get that on [his LinkedIn
 profile](https://www.linkedin.com/in/mike-graham/).  He's really smart
 and hard-working, and would make an excellent hire.  You'd definitely
 secure your bonus this year if you brought him on board.
