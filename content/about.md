@@ -1,5 +1,8 @@
 ---
 title: "About Mike"
+lastmod: 2018-11-26
+slug: about
+draft: false
 ---
 
 Mike Graham loves gundogs but doesn't like hunting or shooting.  He has
