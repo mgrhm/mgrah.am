@@ -1,13 +1,15 @@
 ---
 title: "About Mike"
-lastmod: 2018-11-26
+lastmod: 2019-02-25
 slug: about
 draft: false
 ---
 
-Mike Graham loves gundogs but doesn't like hunting or shooting.  He has
-two cats but hasn't been able to train them.  He's reasonably sure that
-they've trained him.
+Mike Graham loves gundogs but doesn't like hunting or shooting.  His
+Springer Spaniel comes from a thoroughbred working line, but has been
+utterly spoiled and is now just healthy and happy.  He has two cats but
+hasn't been able to train them.  He's reasonably sure that they've
+trained him.
 
 He's mostly vegetarian, but eats the occasional Big Mac.  It's
 complicated.  Not really;  they just taste really good.
