@@ -1,0 +1,4 @@
+User-agent: *
+Disallow: /fonts/
+
+Sitemap: https://mgrah.am/sitemap.xml
