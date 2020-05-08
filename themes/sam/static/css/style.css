@@ -390,6 +390,18 @@
                     align-items: center
                 }
 
+/* Change text-selection colour to "Pale Silver" from colour scheme.
+   This probably doesn't work in Internet Explorer, but that's okay.
+   Source: https: //www.w3schools.com/cssref/sel_selection.asp        */
+
+        ::selection {
+                background: #c1bcac;
+            }
+        ::-moz-selection {
+                background: #c1bcac;             /* Firefox compatibility */
+            }
+
+
 /*
              ·▄▄▄▄   ▄▄▄· ▄▄▄  ▄ •▄     • ▌ ▄ ·.       ·▄▄▄▄  ▄▄▄ .
              ██▪ ██ ▐█ ▀█ ▀▄ █·█▌▄▌▪    ·██ ▐███▪▪     ██▪ ██ ▀▄.▀·
