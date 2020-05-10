@@ -1,22 +1,42 @@
-  <meta charset="utf-8">
-  <meta content="chrome=1"
-        http-equiv="X-UA-Compatible">
-  <meta content="True"
-        name="HandheldFriendly">
-  <meta content="320"
-        name="MobileOptimized">
-  <meta content="width=device-width, initial-scale=1.0"
-        name="viewport">
-  <meta content="no-referrer"
-        name="referrer">
-  <meta content="{{.Site.Params.description}}"
-        name="description">
-  <meta content="website"
-        name="og:type">
-  <meta content="{{.Site.BaseURL}}"
-        name="og:url">
-  <link href="{{.Site.Params.favicon  | default "favicon.ico" | absURL }}"
-        id="favicon"
-        rel="shortcut icon">
-  <link href="{{ "css/style.css" | absURL}}"
-        rel="stylesheet">
+    <meta charset = "utf-8">
+
+    <meta content = "True"
+          name    = "HandheldFriendly">
+
+    <meta content = "320"
+          name    = "MobileOptimized">
+
+    <meta content = "width=device-width, initial-scale=1.0"
+          name    = "viewport">
+
+    <meta content = "no-referrer"
+          name    = "referrer">
+
+    <meta content = "{{.Site.Params.description}}"
+          name    = "description">
+
+    <meta content = "website"
+          name    = "og:type">
+
+    <meta content = "{{.Site.BaseURL}}"
+          name    = "og:url">
+
+    <link href    = "https://mgrah.am/favicon.ico"
+          id      = "favicon"
+          rel     = "shortcut icon">
+
+    <link href    = "{{ "css/style.css" | absURL}}"
+          rel     = "stylesheet">
+
+<!-- Preloading the three initial webfont varieties. -->
+    <link rel     = "preload"
+          href    = "/fonts/400-regular-latin.woff2"
+          as      = "font">
+
+    <link rel     = "preload"
+          href    = "/fonts/400-italic-latin.woff2"
+          as      = "font">
+
+    <link rel     = "preload"
+          href    = "/fonts/700/regular-latin.woff2"
+          as      = "font">
