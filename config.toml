@@ -11,14 +11,14 @@ theme                    = "sam"
     footerText           = "“Nothing Good Comes Easy”"
     homepage             = "Home"
 
-[[Params.mainMenu]]
+[[params.mainMenu]]
     link = "/about"
     text = "About Mike"
 
-[[Params.mainMenu]]
+[[params.mainMenu]]
     link = "https://www.linkedin.com/in/mike-graham/"
     text = "Mike on LinkedIn"
 
-[[Params.mainMenu]]
+[[params.mainMenu]]
     link = "mailto:hello@mgrah.am"
     text = "Email Mike"
