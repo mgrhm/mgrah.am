@@ -14,8 +14,8 @@ test:
 pages:
   script:
   - hugo
-  - gzip -k -6 -r public/css
-  - gzip -k -6 -r public/fonts
+  - gzip -k -6 public/css
+  - gzip -k -6 public/fonts
   artifacts:
     paths:
     - public
