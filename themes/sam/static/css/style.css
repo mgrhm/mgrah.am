@@ -20,13 +20,13 @@
                 ██ ▄▄ ▄█▀▄ ██▪   ▄█▀▄ █▌▐█▌▐▀▀▄ ▄▀▀▀█▄
                 ▐███▌▐█▌.▐▌▐█▌▐▌▐█▌.▐▌▐█▄█▌▐█•█▌▐█▄▪▐█
                 ·▀▀▀  ▀█▄▀▪.▀▀▀  ▀█▄▀▪ ▀▀▀ .▀  ▀ ▀▀▀▀
-       "Mint Graham" + Created August 2018 + Updated April 2020
+       "Mint Graham" + Created August 2018 + Updated July 2020
 
        Text:       #1A281F    "Dark Jungle Green"
        Background: #CEFBE5    "Mint Graham"
        Links:      #EF476F    "Paradise Pink"
        Hover:      #F2BAC9    "Cameo Pink"
-       Highlight:  #C1BCAC    "Pale Silver"
+       Highlight:  #F79F79    "Light Salmon"
 
        Swatch:
            https://coolors.co/1a281f-cefbe5-ef476f-f2bac9-c1bcac
@@ -394,10 +394,10 @@
   Source: https: //www.w3schools.com/cssref/sel_selection.asp        */
 
        ::selection {
-               background: #c1bcac;
+               background: #f79f79;
            }
        ::-moz-selection {
-               background: #c1bcac;        /* Firefox compatibility */
+               background: #f79f79;        /* Firefox compatibility */
            }
 
 
@@ -407,13 +407,13 @@
         ▐█· ▐█▌▄█▀▀█ ▐▀▀▄ ▐▀▀▄·    ▐█ ▌▐▌▐█· ▄█▀▄ ▐█· ▐█▌▐▀▀▪▄
         ██. ██ ▐█ ▪▐▌▐█•█▌▐█.█▌    ██ ██▌▐█▌▐█▌.▐▌██. ██ ▐█▄▄▌
         ▀▀▀▀▀•  ▀  ▀ .▀  ▀·▀  ▀    ▀▀  █▪▀▀▀ ▀█▄▀▪▀▀▀▀▀•  ▀▀▀
-      "Midnight Mint" + Created April 2020 + Updated April 2020
+      "Midnight Mint" + Created April 2020 + Updated July 2020
 
        Text:       #CEFBE5    "Mint Graham"
        Background: #1A281F    "Dark Jungle Green"
        Links:      #F2BAC9    "Cameo Pink"
        Hover:      #EF476F    "Paradise Pink"
-       Highlight:  #C1BCAC    "Pale Silver"
+       Highlight:  #F79F79    "Light Salmon"
 
        Swatch:
            https://coolors.co/cefbe5-1a281f-ef476f-f2bac9-c1bcac
