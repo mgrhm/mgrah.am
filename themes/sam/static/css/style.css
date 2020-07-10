@@ -26,10 +26,10 @@
        Background: #CEFBE5    "Mint Graham"
        Links:      #EF476F    "Paradise Pink"
        Hover:      #F2BAC9    "Cameo Pink"
-       Highlight:  #F79F79    "Light Salmon"
+       Highlight:  #F2BAC9    "Cameo Pink"
 
        Swatch:
-           https://coolors.co/1a281f-cefbe5-ef476f-f2bac9-c1bcac
+           https://coolors.co/1a281f-cefbe5-ef476f-f2bac9-f2bac9
 */
 
    :root {
@@ -394,10 +394,10 @@
   Source: https: //www.w3schools.com/cssref/sel_selection.asp        */
 
        ::selection {
-               background: #f79f79;
+               background: #f2bac9;
            }
        ::-moz-selection {
-               background: #f79f79;        /* Firefox compatibility */
+               background: #f2bac9;        /* Firefox compatibility */
            }
 
 
@@ -413,10 +413,10 @@
        Background: #1A281F    "Dark Jungle Green"
        Links:      #F2BAC9    "Cameo Pink"
        Hover:      #EF476F    "Paradise Pink"
-       Highlight:  #F79F79    "Light Salmon"
+       Highlight:  #F2BAC9    "Cameo Pink"
 
        Swatch:
-           https://coolors.co/cefbe5-1a281f-ef476f-f2bac9-c1bcac
+           https://coolors.co/cefbe5-1a281f-ef476f-f2bac9-f2bac9
 */
 
    @media (prefers-color-scheme: dark) {
