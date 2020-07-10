@@ -25,7 +25,6 @@
        Text:       #1A281F    "Dark Jungle Green"
        Background: #CEFBE5    "Mint Graham"
        Links:      #EF476F    "Paradise Pink"
-       Hover:      #F2BAC9    "Cameo Pink"
        Highlight:  #F2BAC9    "Cameo Pink"
 
        Swatch:
@@ -94,12 +93,7 @@
                }
 
        a:hover {
-                   color: #f2bac9;
-                   font-style: none
-               }
-
-       a:active {
-                   color: #c1bcac;
+                   border-bottom: none;
                }
 
        button {
@@ -412,7 +406,6 @@
        Text:       #CEFBE5    "Mint Graham"
        Background: #1A281F    "Dark Jungle Green"
        Links:      #F2BAC9    "Cameo Pink"
-       Hover:      #EF476F    "Paradise Pink"
        Highlight:  #F2BAC9    "Cameo Pink"
 
        Swatch:
@@ -429,11 +422,11 @@
            }
 
        a {
-                   color: #f2bac9;
+                   color: #ef476f;
                }
 
        a:hover {
-                   color: #ef476f;
+                    border-bottom: none;
                }
 
        a:active {
