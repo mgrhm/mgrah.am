@@ -1,35 +1,35 @@
 /*
-
-  ███▄ ▄███▓  ▄████  ██▀███   ▄▄▄       ██░ ██      ▄▄▄       ███▄ ▄███▓
- ▓██▒▀█▀ ██▒ ██▒ ▀█▒▓██ ▒ ██▒▒████▄    ▓██░ ██▒    ▒████▄    ▓██▒▀█▀ ██▒
- ▓██    ▓██░▒██░▄▄▄░▓██ ░▄█ ▒▒██  ▀█▄  ▒██▀▀██░    ▒██  ▀█▄  ▓██    ▓██░
- ▒██    ▒██ ░▓█  ██▓▒██▀▀█▄  ░██▄▄▄▄██ ░▓█ ░██     ░██▄▄▄▄██ ▒██    ▒██
- ▒██▒   ░██▒░▒▓███▀▒░██▓ ▒██▒ ▓█   ▓██▒░▓█▒░██▓ ██▓ ▓█   ▓██▒▒██▒   ░██▒
- ░ ▒░   ░  ░ ░▒   ▒ ░ ▒▓ ░▒▓░ ▒▒   ▓▒█░ ▒ ░░▒░▒ ▒▓▒ ▒▒   ▓▒█░░ ▒░   ░  ░
- ░  ░      ░  ░   ░   ░▒ ░ ▒░  ▒   ▒▒ ░ ▒ ░▒░ ░ ░▒   ▒   ▒▒ ░░  ░      ░
- ░      ░   ░ ░   ░   ░░   ░   ░   ▒    ░  ░░ ░ ░    ░   ▒   ░      ░
-        ░         ░    ░           ░  ░ ░  ░  ░  ░       ░  ░       ░
-                                                   ░
-            MGRAH.AM is the personal site of Mike Graham.
-  Powered by Hugo, hosted by Gitlab, using the "Call Me Sam" theme.
-       You can read about its author at https://mgrah.am/about */
+ *   ███▄ ▄███▓  ▄████  ██▀███   ▄▄▄       ██░ ██      ▄▄▄       ███▄ ▄███▓
+ *  ▓██▒▀█▀ ██▒ ██▒ ▀█▒▓██ ▒ ██▒▒████▄    ▓██░ ██▒    ▒████▄    ▓██▒▀█▀ ██▒
+ *  ▓██    ▓██░▒██░▄▄▄░▓██ ░▄█ ▒▒██  ▀█▄  ▒██▀▀██░    ▒██  ▀█▄  ▓██    ▓██░
+ *  ▒██    ▒██ ░▓█  ██▓▒██▀▀█▄  ░██▄▄▄▄██ ░▓█ ░██     ░██▄▄▄▄██ ▒██    ▒██
+ *  ▒██▒   ░██▒░▒▓███▀▒░██▓ ▒██▒ ▓█   ▓██▒░▓█▒░██▓ ██▓ ▓█   ▓██▒▒██▒   ░██▒
+ *  ░ ▒░   ░  ░ ░▒   ▒ ░ ▒▓ ░▒▓░ ▒▒   ▓▒█░ ▒ ░░▒░▒ ▒▓▒ ▒▒   ▓▒█░░ ▒░   ░  ░
+ *  ░  ░      ░  ░   ░   ░▒ ░ ▒░  ▒   ▒▒ ░ ▒ ░▒░ ░ ░▒   ▒   ▒▒ ░░  ░      ░
+ *  ░      ░   ░ ░   ░   ░░   ░   ░   ▒    ░  ░░ ░ ░    ░   ▒   ░      ░
+ *         ░         ░    ░           ░  ░ ░  ░  ░  ░       ░  ░       ░
+ *                                                    ░
+ *             MGRAH.AM is the personal site of Mike Graham.
+ *   Powered by Hugo, hosted by Gitlab, using the "Call Me Sam" theme.
+ *        You can read about its author at https://mgrah.am/about
+ */
 
 /*
-                 ▄▄·       ▄▄▌        ▄• ▄▌▄▄▄  .▄▄ ·
-                ▐█ ▌▪▪     ██•  ▪     █▪██▌▀▄ █·▐█ ▀.
-                ██ ▄▄ ▄█▀▄ ██▪   ▄█▀▄ █▌▐█▌▐▀▀▄ ▄▀▀▀█▄
-                ▐███▌▐█▌.▐▌▐█▌▐▌▐█▌.▐▌▐█▄█▌▐█•█▌▐█▄▪▐█
-                ·▀▀▀  ▀█▄▀▪.▀▀▀  ▀█▄▀▪ ▀▀▀ .▀  ▀ ▀▀▀▀
-       "Mint Graham" + Created August 2018 + Updated July 2020
-
-       Text:       #1A281F    "Dark Jungle Green"
-       Background: #CEFBE5    "Mint Graham"
-       Links:      #EF476F    "Paradise Pink"
-       Highlight:  #F2BAC9    "Cameo Pink"
-
-       Swatch:
-           https://coolors.co/1a281f-cefbe5-ef476f-f2bac9-f2bac9
-*/
+ *               ▄▄·       ▄▄▌        ▄• ▄▌▄▄▄  .▄▄ ·
+ *              ▐█ ▌▪▪     ██•  ▪     █▪██▌▀▄ █·▐█ ▀.
+ *              ██ ▄▄ ▄█▀▄ ██▪   ▄█▀▄ █▌▐█▌▐▀▀▄ ▄▀▀▀█▄
+ *              ▐███▌▐█▌.▐▌▐█▌▐▌▐█▌.▐▌▐█▄█▌▐█•█▌▐█▄▪▐█
+ *              ·▀▀▀  ▀█▄▀▪.▀▀▀  ▀█▄▀▪ ▀▀▀ .▀  ▀ ▀▀▀▀
+ *     "Mint Graham" + Created August 2018 + Updated July 2020
+ *
+ *     Text:       #1A281F    "Dark Jungle Green"
+ *     Background: #CEFBE5    "Mint Graham"
+ *     Links:      #EF476F    "Paradise Pink"
+ *     Highlight:  #F2BAC9    "Cameo Pink"
+ *
+ *     Swatch:
+ *         https://coolors.co/1a281f-cefbe5-ef476f-f2bac9-f2bac9
+ */
 
    :root {
            color-scheme: light dark;
@@ -396,21 +396,21 @@
 
 
 /*
-        ·▄▄▄▄   ▄▄▄· ▄▄▄  ▄ •▄     • ▌ ▄ ·.       ·▄▄▄▄  ▄▄▄ .
-        ██▪ ██ ▐█ ▀█ ▀▄ █·█▌▄▌▪    ·██ ▐███▪▪     ██▪ ██ ▀▄.▀·
-        ▐█· ▐█▌▄█▀▀█ ▐▀▀▄ ▐▀▀▄·    ▐█ ▌▐▌▐█· ▄█▀▄ ▐█· ▐█▌▐▀▀▪▄
-        ██. ██ ▐█ ▪▐▌▐█•█▌▐█.█▌    ██ ██▌▐█▌▐█▌.▐▌██. ██ ▐█▄▄▌
-        ▀▀▀▀▀•  ▀  ▀ .▀  ▀·▀  ▀    ▀▀  █▪▀▀▀ ▀█▄▀▪▀▀▀▀▀•  ▀▀▀
-      "Midnight Mint" + Created April 2020 + Updated July 2020
-
-       Text:       #CEFBE5    "Mint Graham"
-       Background: #1A281F    "Dark Jungle Green"
-       Links:      #F2BAC9    "Cameo Pink"
-       Highlight:  #F2BAC9    "Cameo Pink"
-
-       Swatch:
-           https://coolors.co/cefbe5-1a281f-ef476f-f2bac9-f2bac9
-*/
+ *      ·▄▄▄▄   ▄▄▄· ▄▄▄  ▄ •▄     • ▌ ▄ ·.       ·▄▄▄▄  ▄▄▄ .
+ *      ██▪ ██ ▐█ ▀█ ▀▄ █·█▌▄▌▪    ·██ ▐███▪▪     ██▪ ██ ▀▄.▀·
+ *      ▐█· ▐█▌▄█▀▀█ ▐▀▀▄ ▐▀▀▄·    ▐█ ▌▐▌▐█· ▄█▀▄ ▐█· ▐█▌▐▀▀▪▄
+ *      ██. ██ ▐█ ▪▐▌▐█•█▌▐█.█▌    ██ ██▌▐█▌▐█▌.▐▌██. ██ ▐█▄▄▌
+ *      ▀▀▀▀▀•  ▀  ▀ .▀  ▀·▀  ▀    ▀▀  █▪▀▀▀ ▀█▄▀▪▀▀▀▀▀•  ▀▀▀
+ *    "Midnight Mint" + Created April 2020 + Updated July 2020
+ *
+ *     Text:       #CEFBE5    "Mint Graham"
+ *     Background: #1A281F    "Dark Jungle Green"
+ *     Links:      #F2BAC9    "Cameo Pink"
+ *     Highlight:  #F2BAC9    "Cameo Pink"
+ *
+ *     Swatch:
+ *         https://coolors.co/cefbe5-1a281f-ef476f-f2bac9-f2bac9
+ */
 
    @media (prefers-color-scheme: dark) {
        html {
