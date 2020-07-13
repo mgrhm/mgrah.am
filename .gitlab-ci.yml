@@ -13,13 +13,7 @@ test:
 
 pages:
   script:
-  - hugo
-  - gzip -k -6 public/
-  - gzip -k -6 public/about
-  - gzip -k -6 public/categories
-  - gzip -k -6 public/css
-  - gzip -k -6 public/fonts
-  - gzip -k -6 public/tags
+  - hugo && gzip -k -6 $(find public -type f)
   artifacts:
     paths:
     - public
