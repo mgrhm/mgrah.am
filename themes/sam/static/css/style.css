@@ -409,8 +409,8 @@
  *
  *     Text:       #CEFBE5    "Mint Graham"
  *     Background: #1A281F    "Dark Jungle Green"
- *     Links:      #EF476F    "Paradise Pink"
- *     Hover:      #FF99C9    "Carnation Pink"
+ *     Links:      #FF99C9    "Carnation Pink"
+ *     Hover:      #EF476F    "Paradise Pink"
  *     Highlight:  #F2BAC9    "Cameo Pink"
  *
  *     Swatch:
@@ -425,6 +425,18 @@
        body {
                    color: #cefbe5;
            }
+
+       a {
+                   color: #ff99c9;
+                   text-decoration: none;
+                   border-bottom: 2px solid #ff99c9;
+               }
+
+       a:hover {
+                   color: #ef476f;
+                   text-decoration: none;
+                   border-bottom: 2px solid #ef476f;
+               }
        }
 
 
