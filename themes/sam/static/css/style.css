@@ -150,7 +150,7 @@
                    flex-direction: column;
                    justify-content: center;
                    align-items: flex-start;
-                   max-width: 40ch;
+                   max-width: 64ch;
                }
 
        .bottom-menu {
