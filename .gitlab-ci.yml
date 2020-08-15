@@ -1,6 +1,6 @@
 # All available Hugo versions are listed here:
 # https://gitlab.com/pages/hugo/container_registry
-image: registry.gitlab.com/oct8l/oct8l.gitlab.io/hugo/minify:latest
+image: registry.gitlab.com/pages/hugo/hugo:latest
 
 variables:
   GIT_SUBMODULE_STRATEGY: recursive
