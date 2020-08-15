@@ -17,7 +17,6 @@ pages:
   - hugo -d build
   - ls -l
   - ls -l build
-  - minify-json build
   - find build -iname *.css | xargs -I {} uglifycss --output {} {}
   - find build -iname *.js | xargs -I {} uglifyjs -o {} {}
   - find build -iname *.html | xargs -I {} html-minifier --collapse-whitespace -o {} {}
