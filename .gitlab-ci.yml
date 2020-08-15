@@ -13,21 +13,7 @@ test:
 
 pages:
   script:
-  - mkdir .public
-  - hugo -d .public
-  - ls -l
-  - ls -l .public
-  - minify-json .public
-  - find .public -iname *[^min].css | xargs -I {} uglifycss --output {} {}
-  - find .public -iname *[^min].js | xargs -I {} uglifyjs -o {} {}
-  - find .public -iname *[^min].html | xargs -I {} html-minifier --collapse-whitespace -o {} {}
-  - find .public -iname *[^min].png | xargs -I {} imagemin-inplace -o {} {}
-  - find .public -iname *[^min].svg | xargs -I {} imagemin-inplace -o {} {}
-  - find .public -iname *[^min].jpg | xargs -I {} imagemin-inplace -o {} {}
-  - find .public -iname *[^min].jpeg | xargs -I {} imagemin-inplace -o {} {}
-  - mv .public public
-  - ls -l public
-  - ls -l
+  - hugo && gzip -k -6 $(find public -type f)
   artifacts:
     paths:
     - public
