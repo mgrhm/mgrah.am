@@ -20,7 +20,7 @@ pages:
   - find build -iname *.css | xargs -I {} uglifycss --output {} {}
   - find build -iname *.js | xargs -I {} uglifyjs -o {} {}
   - find build -iname *.html | xargs -I {} html-minifier --collapse-whitespace -o {} {}
-  - find build -type f | xargs -I {} gzip -k -9 {} {}
+  - find build -type f | xargs -I {} gzip -f -k -9 {} {}
   - mv build public
   - ls -l public
   - ls -l
