@@ -22,11 +22,22 @@
           name    = "og:url">
 
 <!-- Using a base64-encoded favicon saves an HTTP request. -->
-    <link href    = "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAADAAA
-                     AAwAQMAAABtzGvEAAAAA1BMVEXE/eQ3qbrXAAAADElEQVQY02MY
-                     BVQFAAFQAAGXbYedAAAAAElFTkSuQmCC"
+    <link href    = "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAADAAAAAwAQMAAABtzGvEAAAAA1BMVEXE/eQ3qbrXAAAADElEQVQY02MYBVQFAAFQAAGXbYedAAAAAElFTkSuQmCC"
           id      = "favicon"
           rel     = "shortcut icon">
 
     <link href    = "{{ "css/style.css" | absURL}}"
           rel     = "stylesheet">
+
+<!-- Preloading the three initial webfont varieties. -->
+    <link rel     = "preload"
+          href    = "/fonts/400-regular-latin.woff2"
+          as      = "font">
+
+    <link rel     = "preload"
+          href    = "/fonts/400-italic-latin.woff2"
+          as      = "font">
+
+    <link rel     = "preload"
+          href    = "/fonts/600-regular-latin.woff2"
+          as      = "font">
