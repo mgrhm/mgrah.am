@@ -10,12 +10,12 @@ ____________________________________________________________
 
  The site is built with Hugo (https://gohugo.io) and hosted
  by GitLab pages (https://gitlab.com/pages).  Commits are
- kept in a private GitLab repo.  They're not interesting
- enough to be public.
+ kept in a private GitLab repo, but they're available to 
+ view on GitHub at https://github.com/mgrhm/mgrah.am
 
  You can send any comments, complaints, and suggestions by
  email to the address hello@mgrah.am
 ____________________________________________________________
 
- humans.txt last updated: 2019-11-18
+ humans.txt last updated: 2021-01-05
 ____________________________________________________________
