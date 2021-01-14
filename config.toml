@@ -8,7 +8,7 @@ theme                    = "sam"
     dateformfull         = "Mon Jan 2 2006 15:04:05 EST"
     description          = "MGRAH.AM is the website of Mike Graham."
     favicon              = "/favicon.ico"
-    footerText           = "“Nothing Good Comes Easy”"
+    footerText           = "“Show Your Bones”"
     homepage             = "Home"
 
 [[params.mainMenu]]
@@ -16,7 +16,11 @@ theme                    = "sam"
     text = "About Mike"
 
 [[params.mainMenu]]
-    link = "https://www.linkedin.com/in/mike-graham/"
+    link = "https://github.com/mgrhm"
+    text = "Mike on GitHub"
+
+[[params.mainMenu]]
+    link = "https://www.linkedin.com/in/mike-graham"
     text = "Mike on LinkedIn"
 
 [[params.mainMenu]]
